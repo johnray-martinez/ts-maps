@@ -6,7 +6,8 @@ export class Company {
   location: {
     lng: number;
     lat: number;
-  }
+  };
+  content: string
 
   constructor() {
     const { name, catchPhrase } = faker.company;
@@ -16,6 +17,8 @@ export class Company {
     this.location = {
       lng: faker.location.longitude(),
       lat: faker.location.latitude()
-    }
+    };
+
+    this.content = `${this.name} \n ${this.catchPhrase}`;
   }
 }
