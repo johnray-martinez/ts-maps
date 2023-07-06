@@ -1,1 +1,2 @@
-console.log('he')
+import { User } from "./User";
+
