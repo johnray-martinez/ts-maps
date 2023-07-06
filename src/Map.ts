@@ -1,11 +1,4 @@
-interface Markable {
-  content: string,
-  location: {
-    lat: number;
-    lng: number;
-  }
-}
-
+import { Markable } from "./Markable";
 export class Map {
   private googleMap: google.maps.Map;
 

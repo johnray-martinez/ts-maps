@@ -1,6 +1,7 @@
 import { faker } from '@faker-js/faker';
+import { Markable } from './Markable';
 
-export class User {
+export class User implements Markable {
   name: string;
   content: string;
   location: {
