@@ -3,6 +3,7 @@
     "start": "npx parcel index.html"
   },
   "dependencies": {
-    "@faker-js/faker": "^8.0.2"
+    "@faker-js/faker": "^8.0.2",
+    "@types/googlemaps": "^3.43.3"
   }
 }

@@ -4,14 +4,14 @@ export class User {
   name: string;
   location: {
     lat: number,
-    long: number
+    lng: number
   }
-  
+
   constructor() {
     this.name = faker.person.firstName();
     this.location = {
       lat: faker.location.latitude(),
-      long: faker.location.longitude()
+      lng: faker.location.longitude()
     }
   } 
 }
